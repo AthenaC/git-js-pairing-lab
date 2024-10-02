@@ -60,8 +60,19 @@ add(10, -5)   //returns 5
 add(3, 7.5)   //returns 10.5
 add(5, 5)     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
 add(6, 6)     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
-console.log("7. ");
 
+console.log("7. isNegative Function");
+const isNegative = (i) => {
+    if (i < 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+
+isNegative(3)         //returns false
+isNegative(-2)        //returns true
+isNegative(Math.PI)   //returns false
 
 console.log("8. ");
 
