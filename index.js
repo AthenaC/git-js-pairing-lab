@@ -102,10 +102,6 @@ largest(4, 6, 8)        //returns 8
 largest(30, 22, 17)     //returns 30
 largest(41, 108, 86)    //returns 108
 
-
-
-
-
 console.log("Bonus");
 console.log("11. printTime Function");
 
