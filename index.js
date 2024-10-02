@@ -74,14 +74,25 @@ isNegative(3)         //returns false
 isNegative(-2)        //returns true
 isNegative(Math.PI)   //returns false
 
-console.log("8. returns the area of the triangle]");
+console.log("8. returns the area of the triangle");
 const triangleArea = (base, height) =>{
 return (base * height)/2
 }
 triangleArea(5, 7)    //returns 17.5
 triangleArea(6, 8)    //returns 24
-console.log("9. ");
 
+console.log("9. betweenTwentyAndFourty Function");
+const betweenTwentyAndFourty = (i) => {
+    if (i >= 20 && i <= 40) {
+        return true;
+    } else {
+        return false;
+    }
+};
+betweenTwentyAndFourty(20)      //return false
+betweenTwentyAndFourty(21)     //return true
+betweenTwentyAndFourty(39)     //return true
+betweenTwentyAndFourty(40)    //return false
 
 console.log("10. ");
 
