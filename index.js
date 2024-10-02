@@ -114,7 +114,13 @@ const printTime = () => {
 printTime();
 
 console.log("12. isLeapYear Function");
-
+const isLeapYear = (year) => {
+    if (year%4===0){
+        return true
+    }else{
+        return false
+    }
+}
 isLeapYear(2000)    //returns true
 isLeapYear(1900)    //returns false
 isLeapYear(2020)    //returns true
