@@ -47,9 +47,19 @@ multiply(2, 4)     //returns 8
 multiply(10, -5)   //returns -50
 multiply(3, 7.5)   //returns 22.5
 
-console.log("6. ");
-
-
+console.log("6. adds unless triple the sum");
+const add = (num1, num2) =>{
+    if (num1 === num2){
+        return (num1 + num2)*3
+    }else{
+        return num1 + num2 
+    }
+}
+add(2, 4)     //returns 6
+add(10, -5)   //returns 5
+add(3, 7.5)   //returns 10.5
+add(5, 5)     //returns 30 because the sum of 5 + 5 = 10 and 30 is triple that
+add(6, 6)     //returns 36 because the sum of 6 + 6 = 12 and 36 is triple that
 console.log("7. ");
 
 
