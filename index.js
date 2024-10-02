@@ -1,7 +1,12 @@
 //Code your solutions in this file
 
-// 1. fiveToOneHUndred Function
-
+// 1. fiveToOneHundred Function
+const fiveToOneHundred = () => {
+    for (i = 5; i <= 100; i++) {
+        console.log(i);
+    }
+}
+fiveToOneHundred(5);
 
 // 2. 
 
