@@ -8,9 +8,15 @@ const fiveToOneHundred = () => {
 }
 fiveToOneHundred(5);
 
-// 2. 
-
-
+// 2. console logs all positive numbers to 100 that is a multiple of 3
+const multiplesOfThree = () =>{
+    for (let i = 1; i <= 100; i++){
+        if (i%3 === 0){
+            console.log(i)
+        }
+    }
+}
+multiplesOfThree();
 // 3. multiplesOfThreeOrFive Function
 const multiplesOfThreeOrFive = () {
     for (i = 0; i <= 100; i++) {
@@ -27,8 +33,7 @@ const multiplesOfThreeOrFive = () {
 
 multiplesOfThreeOrFive();
 
-// 4. 
-
+// 4. `untilNum` takes in an integer parameter and console logs all numbers from 1 to that number.
 
 // 5. 
 
