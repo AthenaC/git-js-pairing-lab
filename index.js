@@ -94,9 +94,13 @@ betweenTwentyAndFourty(21)     //return true
 betweenTwentyAndFourty(39)     //return true
 betweenTwentyAndFourty(40)    //return false
 
-console.log("10. ");
-
-
+console.log("10. takes in three number parameters and returns the largest of the values.");
+const largest = (a,b,c) =>{
+    return Math.max(a,b,c)
+}
+largest(4, 6, 8)        //returns 8
+largest(30, 22, 17)     //returns 30
+largest(41, 108, 86)    //returns 108
 
 
 
