@@ -30,30 +30,31 @@ const multiplesOfThreeOrFive = () => {
 multiplesOfThreeOrFive();
 
 console.log("4. `untilNum` takes in an integer parameter and console logs all numbers from 1 to that number.");
+const untilNum = (num) =>{
+    for (let i = 1; i <= num; i++){
+        console.log(i)
+    }
+}
+untilNum(5)    //prints out numbers 1 through 5
+untilNum(9)    //prints out numbers 1 through 9
+untilNum(42)   //prints out numbers 1 through 42
 
 console.log("5. multiply Function");
-const multiply = (a, b) => {
-    a * b = i;
-    console.log(i);
-};
-
-multiply(2, 4)     //returns 8
-multiply(10, -5)   //returns -50
-multiply(3, 7.5)   //returns 22.5
-
-// 6. 
 
 
-// 7. 
+console.log("6. ");
 
 
-// 8. 
+console.log("7. ");
 
 
-// 9. 
+console.log("8. ");
 
 
-// 10. 
+console.log("9. ");
+
+
+console.log("10. ");
 
 
 
