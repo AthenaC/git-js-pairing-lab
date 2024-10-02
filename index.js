@@ -74,9 +74,12 @@ isNegative(3)         //returns false
 isNegative(-2)        //returns true
 isNegative(Math.PI)   //returns false
 
-console.log("8. ");
-
-
+console.log("8. returns the area of the triangle]");
+const triangleArea = (base, height) =>{
+return (base * height)/2
+}
+triangleArea(5, 7)    //returns 17.5
+triangleArea(6, 8)    //returns 24
 console.log("9. ");
 
 
