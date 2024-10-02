@@ -17,6 +17,7 @@ const multiplesOfThree = () =>{
     }
 }
 multiplesOfThree();
+
 // 3. multiplesOfThreeOrFive Function
 const multiplesOfThreeOrFive = () {
     for (i = 0; i <= 100; i++) {
