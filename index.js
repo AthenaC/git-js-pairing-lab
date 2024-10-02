@@ -102,6 +102,40 @@ console.log("10. ");
 
 
 
+console.log("Bonus");
+console.log("11. printTime Function");
+
+
+console.log("12. isLeapYear Function");
+
+isLeapYear(2000)    //returns true
+isLeapYear(1900)    //returns false
+isLeapYear(2020)    //returns true
+isLeapYear(1999)    //returns false
+
+console.log("13. getExtention Function");
+
+
+getExtention("hello.txt")     //returns ".txt"
+getExtention("app.js")        //returns ".js"
+getExtention("README.md")     //returns ".md"
+
+console.log("14. absoluteNineteen Function");
+
+
+console.log("15. switchLetters Function");
+
+switchLetters("anne")         //return "enna"
+switchLetters("hello world")  //return "dello worlh"
+switchLetters("a")            //return "a"
+switchLetters("")             //return ""
+
+console.log("16. changeString Function");
+
+changeString("abc")             //return "bcd"
+changeString("helloworld")      //return "ifmmpxpsme"
+
+
 
 
 
