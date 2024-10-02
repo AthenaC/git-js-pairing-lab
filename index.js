@@ -104,7 +104,14 @@ largest(41, 108, 86)    //returns 108
 
 console.log("Bonus");
 console.log("11. printTime Function");
-
+const printTime = () => {
+    const now = new Date();
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    let seconds = now.getSeconds();
+    console.log(`Current Time: ${hours}:${minutes}:${seconds}`);
+}
+printTime();
 
 console.log("12. isLeapYear Function");
 
