@@ -40,7 +40,12 @@ untilNum(9)    //prints out numbers 1 through 9
 untilNum(42)   //prints out numbers 1 through 42
 
 console.log("5. multiply Function");
-
+const multiply = (a, b) => {
+    return a * b;
+}
+multiply(2, 4)     //returns 8
+multiply(10, -5)   //returns -50
+multiply(3, 7.5)   //returns 22.5
 
 console.log("6. ");
 
