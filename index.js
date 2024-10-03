@@ -140,8 +140,13 @@ console.log("14. absoluteNineteen Function");
 
 console.log("15. switchLetters Function");
 const switchLetters = (str) => {
-    let str = "";
-    let str.split("")
+    if (str.length < 2) {
+        return str;
+    }
+    const firstChar = str[0];
+    const lastChar = str[str.length - 1];
+    const middleChar = str.slice(1, str.length - 1);
+    return lastChar + middleChar + firstChar;
 }
 switchLetters("anne")         //return "enna"
 switchLetters("hello world")  //return "dello worlh"
