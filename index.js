@@ -127,7 +127,9 @@ isLeapYear(2020)    //returns true
 isLeapYear(1999)    //returns false
 
 console.log("13. getExtention Function");
-
+const getExtention = (filename) => {
+    return filename.slice(filename.lastIndexOf('.'));
+};
 
 getExtention("hello.txt")     //returns ".txt"
 getExtention("app.js")        //returns ".js"
